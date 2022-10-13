@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+	<style	name="AppTheme"	parent="@style/Theme.AppCompat.Light.DarkActionBar">
+		<item name="android:actionBarStyle">@style/MyActionBar</item>
+		<item name="android:colorPrimary">@color/colorPrimary</item>
+		<item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="android:colorAccent">@color/colorAccent</item>
+		<item name="android:colorControlHighlight">@color/colorControlHighlight</item>
+		<item name="android:colorControlNormal">@color/colorControlNormal</item>
+	</style>
+</resources>

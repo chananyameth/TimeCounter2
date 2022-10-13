@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear_all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="אודות"
+            android:textSize="12sp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:id="@+id/about_iv"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/info"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="העתק את כל המידע הקיים"
+            android:textSize="12sp"
+            android:textColor="#000000"/>
+        <ImageView
+            android:id="@+id/copy_iv"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/copy"
+            android:scaleType="fitCenter"/>
+        <TextView
+            android:id="@+id/textview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="מחק את כל המידע הקיים"
+            android:textSize="12sp"
+            android:textColor="#F44336"/>
+        <ImageView
+            android:id="@+id/delete_all_iv"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/delete"
+            android:scaleType="fitCenter"/>
+    </LinearLayout>
+</LinearLayout>
